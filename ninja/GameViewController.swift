@@ -9,6 +9,10 @@
 import UIKit
 import SpriteKit
 
+// global variable
+
+
+
 extension SKNode {
     class func unarchiveFromFile(file : String) -> SKNode? {
         if let path = NSBundle.mainBundle().pathForResource(file, ofType: "sks") {
@@ -29,21 +33,19 @@ class GameViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        if let scene = GameScene.unarchiveFromFile("GameScene") as? GameScene {
-            // Configure the view.
-            let skView = self.view as! SKView
-            skView.showsFPS = true
-            skView.showsNodeCount = true
-            
-            /* Sprite Kit applies additional optimizations to improve rendering performance */
-            skView.ignoresSiblingOrder = true
-            
-            /* Set the scale mode to scale to fit the window */
-            scene.scaleMode = .AspectFill
-            
-            skView.presentScene(scene)
-        }
+        // setup the view
+        let skview = self.view as! SKView
+        skview.multipleTouchEnabled = false
+        
+        // set up and configure scene
+        var scene: SKScene = GameScene(size: skview.bounds.size)
+        scene.scaleMode = .AspectFill
+        
+        skview.presentScene(scene)
+        
+        
+        
+        
     }
 
     override func shouldAutorotate() -> Bool {
