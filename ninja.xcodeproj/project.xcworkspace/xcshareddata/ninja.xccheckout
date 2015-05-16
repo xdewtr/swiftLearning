@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>98136777-2901-43A7-8B8C-9F8D5A0AA725</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AECB7E36E188B48D6A1A0541244D5A94FFE2BC77</key>
+		<string>https://github.com/xdewtr/swiftLearning.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ninja.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AECB7E36E188B48D6A1A0541244D5A94FFE2BC77</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/xdewtr/swiftLearning.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AECB7E36E188B48D6A1A0541244D5A94FFE2BC77</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AECB7E36E188B48D6A1A0541244D5A94FFE2BC77</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ninja</string>
+		</dict>
+	</array>
+</dict>
+</plist>

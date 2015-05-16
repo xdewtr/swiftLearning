@@ -15,6 +15,7 @@
 		2343AA931B07C17C008F7C4D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2343AA921B07C17C008F7C4D /* Images.xcassets */; };
 		2343AA961B07C17C008F7C4D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2343AA941B07C17C008F7C4D /* LaunchScreen.xib */; };
 		2343AAA21B07C17C008F7C4D /* ninjaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2343AAA11B07C17C008F7C4D /* ninjaTests.swift */; };
+		2343AAAC1B07CA5A008F7C4D /* MLMovingGround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2343AAAB1B07CA59008F7C4D /* MLMovingGround.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		2343AA9B1B07C17C008F7C4D /* ninjaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ninjaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2343AAA01B07C17C008F7C4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2343AAA11B07C17C008F7C4D /* ninjaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ninjaTests.swift; sourceTree = "<group>"; };
+		2343AAAB1B07CA59008F7C4D /* MLMovingGround.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLMovingGround.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				2343AA871B07C17C008F7C4D /* AppDelegate.swift */,
 				2343AA891B07C17C008F7C4D /* GameScene.sks */,
 				2343AA8B1B07C17C008F7C4D /* GameScene.swift */,
+				2343AAAB1B07CA59008F7C4D /* MLMovingGround.swift */,
 				2343AA8D1B07C17C008F7C4D /* GameViewController.swift */,
 				2343AA8F1B07C17C008F7C4D /* Main.storyboard */,
 				2343AA921B07C17C008F7C4D /* Images.xcassets */,
@@ -222,6 +225,7 @@
 				2343AA8C1B07C17C008F7C4D /* GameScene.swift in Sources */,
 				2343AA8E1B07C17C008F7C4D /* GameViewController.swift in Sources */,
 				2343AA881B07C17C008F7C4D /* AppDelegate.swift in Sources */,
+				2343AAAC1B07CA5A008F7C4D /* MLMovingGround.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,9 +10,16 @@ import SpriteKit
 
 class GameScene: SKScene {
     override func didMoveToView(view: SKView) {
-        backgroundColor = UIColor.blueColor()
+        backgroundColor = UIColor(red: 159 / 255.0, green: 201 / 255.0 , blue: 201 / 255.0, alpha: 1.0)
         
-        // add objects
+        // ground will be new obj
+        let ground = MLMovingGround(size: CGSizeMake(self.frame.width, 20))
+        // you wont see anything til you set position
+    
+        ground.position = view.center
+        
+        self.addChild(ground)
+        
     }
     
     override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
